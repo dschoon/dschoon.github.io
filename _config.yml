@@ -1,0 +1,60 @@
+# Site settings
+title: Dan Schoonmaker
+email: dschoon@gmail.com
+url: https://dschoon.github.io
+description: "Coming Soon!"
+skills: "Software Engineer"
+meta_author: Schoonmaker Daniel
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18BABC #80B3FF
+  primary-rgb: "24,186,188" #"128,179,255"
+  secondary: 2C3E50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  location:
+  social: Around the Web
+  credits:
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/DanSchoonmaker
+  - title: facebook
+    url: https://www.facebook.com/DanSchoonmaker
+  - title: stack-overflow
+    url: stackoverflow.com/users/2537208/schoonie23
+  - title: linkedin
+    url: https://www.linkedin.com/in/danschoonmaker
+  - title: github
+    url: http://github.com/dschoon
+
+# Postal address (add as many lines as necessary)
+address:
+  - line:
+
+# Credits content
+credits: ''
+
+# Build settings
+markdown: kramdown
+permalink: pretty
